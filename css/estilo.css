@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins';
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#logo {
+  height: 200px;
+}
+
+#menu {
+  display: flex;
+  list-style-type: none;
+}
+
+.link-menu {
+  color: #fff;
+  background-color: #555;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 7px;
+}
+
+.f {
+  background-color: #5b305a;
+}
+
+.l {
+  background-color: #e49756;
+  color: white;
+}
+
+.m {
+  background-color: #e04b5a;
+}
+
+main {
+  background-color: #333;
+  color: #ddd;
+}
+
+h1, h2 {
+  font-family: 'Amatic SC';
+}
+
+#second a{
+  color: #fff;
+}
+
+#principal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 600px;
+  align-items: center;
+}
+
+#sec_ctd p{
+  width: 450px;
+  text-align: justify;
+}
+
+#sec_ctd h1{
+  text-align: right;
+  font-size: xx-large;
+}
+
+figure img {
+  height: 500px;
+}
+
+#second {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 30px;
+}
+
+.cartaz img {
+  width: 350px;
+}
+
+footer {
+  background-color: #333;
+  color: #ddd;
+  height: 70px;
+}
+
+#contato {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#social a > img {
+  height: 50px;
+}
+
+#acesso {
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  font-family: 'Amatic SC';
+  font-size: large;
+}
+
+#acesso a {
+  text-decoration: none;
+}
+
+#email a {
+  color: white;
+  text-decoration: none;
+}
+
+#descricao {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 600px;
+  padding: 10px;
+}
